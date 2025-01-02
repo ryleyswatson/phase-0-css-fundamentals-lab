@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* center page */
+body{
+  text-align:center;
+}
+
+/* Jazz up Navigation links */
+nav a{
+background-color: grey;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+/* Center Caption and adjust font */
+figcaption {
+  font-size: smaller;
+}
+
+/* Center Caption Cnt'd and adjust font */
+
+section p{
+  text-align: center;
+  width: 800px;
+  padding-left: 375px;
+  font-size: smaller;
+}
+
+/* More stuff I'm tired */
+detail-box {
+  float: left;
+  width: 23%; /* Adjust the width of each box to fit horizontally */
+  margin-right: 2%; /* Adds space between boxes */
+  padding: 10px;
+  border: 1px solid #ccc; /* Optional: Adds border for each column */
+  box-sizing: border-box;
+}
+
+div h3.contact{
+  float: left;
+}
